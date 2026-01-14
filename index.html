@@ -1,23 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-    <!-- 
-    You must have: 
-    - a profile picture image
-    - Name
-    - Title
-    - Phone Number
-    - Company/Organization Name
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    -->
-    
+  <body>
+    <main class="page">
+      <article class="card" aria-label="Contact Card">
+        <section class="pod pod--photo">
+          <img
+            class="avatar"
+            src="images/profile.jpg"
+            alt="Profile photo of Bobby Akers"
+          />
+        </section>
 
+        <section class="pod pod--details">
+          <h1 class="name">Bobby Akers</h1>
+          <p class="title">Communications & Digital Learning</p>
 
-</body>
+          <p class="line">
+            <span class="label">Phone:</span>
+            <a class="link" href="tel:+16068864547">(606) 886-4547</a>
+          </p>
+
+          <p class="line">
+            <span class="label">Email:</span>
+            <a class="link" href="mailto:bobby.akers@floyd.kyschools.us">bobby.akers@floyd.kyschools.us</a>
+          </p>
+        </section>
+
+        <section class="pod pod--company">
+          <h2 class="company">Floyd County Schools</h2>
+          <p class="slogan">Learning Today. Leading Tomorrow.</p>
+        </section>
+      </article>
+    </main>
+  </body>
 </html>
